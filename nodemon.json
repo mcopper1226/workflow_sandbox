@@ -1,0 +1,19 @@
+{
+  "restartable": "rs",
+  "ignore": [".git", "node_modules/**/node_modules", "dist"],
+  "verbose": true,
+  "execMap": {
+    "js": "node"
+  },
+
+  "runOnChangeOnly": false,
+  "watch": ["src/**/*.js"],
+  "env": {
+    "NODE_ENV": "development",
+    "MONGODB_URI": "mongodb+srv://mcopper:javascript@events-9sfh3.mongodb.net/development?retryWrites=true&w=majority",
+    "JWT": "makecoolstuff",
+    "EMS_CLIENT_ID": "5UKEce0CQr20Bcdj4yrRdQ",
+    "EMS_SECRET": "Wg5aGO2i-zh6SbNBpYWViakX5c5b4GI15yBHXBZMViM"
+  },
+  "ext": "js,json"
+}
